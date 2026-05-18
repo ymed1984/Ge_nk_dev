@@ -1,0 +1,17 @@
+# Placeholder schema for Ge Frey-style temperature-dependent Sellmeier parameters.
+# These coefficients are synthetic placeholders, not Frey/Leviton/Madison literature values.
+material: Ge
+model: FreySellmeier
+source: placeholder_schema_not_literature_coefficients
+coefficient_provenance: placeholder
+default_temperature_K: 295.0
+validity:
+  wavelength_um: [1.9, 5.5]
+  temperature_K: [20.0, 300.0]
+terms:
+  - name: placeholder_term_1
+    strength_coefficients: [7.0, 0.0]
+    resonance_um_coefficients: [0.30, 0.0]
+  - name: placeholder_term_2
+    strength_coefficients: [1.0, 0.0]
+    resonance_um_coefficients: [0.70, 0.0]

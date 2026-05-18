@@ -1,0 +1,48 @@
+{
+  "RMSE_n": 3.2431695495568653,
+  "RMSE_k": 2.3214718336874287,
+  "MAE_n": 2.8524725518670677,
+  "MAE_k": 2.1311782616523467,
+  "weighted_RMSE_k": 2.3214718336874287,
+  "RMSE_log_alpha": 1.8873618282420457,
+  "weighted_RMSE_log_alpha": 1.8873618282420457,
+  "max_abs_error_n": 4.215908949036255,
+  "max_abs_error_k": 3.873457069412842,
+  "k_weight": 1.0,
+  "alpha_weight": 1.0,
+  "num_points": 301,
+  "wavelength_range_um": [
+    1.2,
+    1.65
+  ],
+  "energy_range_eV": [
+    0.7514193842424243,
+    1.0332016533333332
+  ],
+  "reference_metadata": {
+    "reference_material": "Ge",
+    "reference_source": "Lumerical standard Ge CRC",
+    "reference_reference": "/Users/yuyamaeda/Documents/Programs/Ge_nk_dev/bgdata/Ge (Germanium) - CRC.csv",
+    "reference_strain_state": "unstrained",
+    "reference_notes": "Local user-provided Lumerical/CRC benchmark data; not model coefficients.",
+    "reference_wavelength_range_um": [
+      0.12407,
+      100.05645159999999
+    ],
+    "reference_energy_range_eV": [
+      0.012391424682503932,
+      9.993084420085435
+    ]
+  },
+  "model_metadata": {
+    "model_material": "Ge",
+    "model_wavelength_range_um": [
+      1.2,
+      1.65
+    ],
+    "model_energy_range_eV": [
+      0.7514193842424243,
+      1.0332016533333332
+    ]
+  }
+}

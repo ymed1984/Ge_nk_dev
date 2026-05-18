@@ -1,0 +1,19 @@
+# Placeholder schema for Ge Drude free-carrier parameters.
+# Effective masses and mobilities are placeholders, not literature-checked values.
+material: Ge
+model: Drude
+parameter_provenance: placeholder
+source_notes: >
+  Placeholder values for schema and loader testing. Replace with user-provided or
+  literature-checked effective masses and mobilities before quantitative use.
+carriers:
+  electron:
+    density_cm3: 0.0
+    effective_mass_rel: 1.0
+    mobility_cm2_Vs: 1.0
+    parameter_provenance: placeholder
+  hole:
+    density_cm3: 0.0
+    effective_mass_rel: 1.0
+    mobility_cm2_Vs: 1.0
+    parameter_provenance: placeholder

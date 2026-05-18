@@ -1,0 +1,31 @@
+# Placeholder scaffold for a Ge Adachi-style critical-point model.
+# These values are not literature parameters and must be fitted or replaced by
+# user-approved values before quantitative use.
+material: Ge
+model: AdachiGeSkeleton
+eps_inf: 1.0
+validity:
+  wavelength_um: [0.5, 6.0]
+  energy_eV: [0.2, 2.5]
+implemented_terms:
+  - eps_inf
+  - generic_lorentz_placeholder
+source_notes: >
+  Scaffold inspired by Adachi-style critical-point modeling. The generic Lorentz-like
+  placeholder terms below are not a faithful full Adachi implementation and are not
+  literature coefficients.
+critical_points:
+  - name: placeholder_E0_to_be_fitted
+    energy_eV: 0.80
+    amplitude: 1.0
+    gamma_eV: 0.05
+    phase: 0.0
+    kind: generic_lorentz
+    provenance: placeholder_to_be_fitted
+  - name: placeholder_E1_to_be_fitted
+    energy_eV: 2.10
+    amplitude: 0.5
+    gamma_eV: 0.10
+    phase: 0.0
+    kind: generic_lorentz
+    provenance: placeholder_to_be_fitted
